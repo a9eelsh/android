@@ -7,7 +7,7 @@
 
 <!-- versionCode is optional and Android only -->
 
-  <name>Android App Example1</name>
+  <name>Android App Example2</name>
 
   <description>
       Example for YT.
@@ -18,5 +18,5 @@
   </author>
   
   <icon src="icon.png" />
-  <plugin name="com.google.cordova.admob" />
+<gap:plugin name="phonegap-admob" source="npm"/>
 </widget>
